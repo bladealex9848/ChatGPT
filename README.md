@@ -43,4 +43,6 @@
 <p>Este código es un ejemplo y está disponible para que cualquiera pueda utilizarlo y modificarlo. Si desea contribuir con mejoras o correcciones, puede enviar una solicitud de pull a través de GitHub. Todas las contribuciones serán revisadas y, si se aprueban, serán incorporadas al repositorio.</p>
 
 <h2>Agradecimientos</h2>
-<p>Agradezco a OpenAI por su API y modelos, que nos permiten experimentar con el procesamiento del lenguaje natural y crear aplicaciones interesantes y útiles. También <strong>agradezco a Dios, a mi familia y amigos<strong>. Sin su ayuda, esta aplicación no habría sido posible.</p>
+<p>Agradezco a OpenAI por su API y modelos, que nos permiten experimentar con el procesamiento del lenguaje natural y crear aplicaciones interesantes y útiles. También <strong>agradezco a Dios, a mi familia y amigos</strong>. Sin su ayuda, esta aplicación no habría sido posible.</p>
+
+<p><strong>Recuerda que tu imaginación es tu única frontera.</strong></p>
