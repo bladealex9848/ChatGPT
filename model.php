@@ -7,7 +7,7 @@ function get_gpt3_response($prompt, $model_id, $api_key)
   $request_data = array(
     "model" => $model_id,
     "prompt" => $prompt,
-    "max_tokens" => 1280
+    "max_tokens" => 4000
   );
 
   // Convierte el contenido de la solicitud en una cadena JSON

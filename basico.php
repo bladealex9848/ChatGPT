@@ -1,8 +1,5 @@
 <?php
 
-// Incluye el modelo para hacer la solicitud a la API de OpenAI
-include_once "model.php";
-
 /*
 ULTIMO MODELO	    DESCRIPCIÓN	                                                                                                                                                                                                                                      SOLICITUD MÁX.      DATOS DE ENTRENAMIENTO
 text-davinci-003	El modelo GPT-3 más capaz. Puede realizar cualquier tarea que puedan realizar los otros modelos, a menudo con mayor calidad, mayor duración y mejor seguimiento de instrucciones. También admite la inserción de finalizaciones dentro del texto.	4,000 tokens	      Up to Jun 2021
@@ -16,32 +13,37 @@ URL: https://beta.openai.com/docs/models/gpt-3
 $model_id = "text-davinci-003";
 $api_key = "SU-API-KEY";
 
-// Recibe el prompt enviado por el usuario
-$prompt = $_POST['prompt'];
+// Establece el contenido de la solicitud
+$request_data = array(
+  "model" => $model_id,
+  "prompt" => "¿cual es la capital de Colombia?",
+  "max_tokens" => 4000
+);
 
-// Valida la entrada del usuario
-if (isset($prompt) && !empty(trim($prompt))) {
-  // Llamamos a la función que hace la solicitud a la API de OpenAI
-  $response_data = get_gpt3_response($prompt, $model_id, $api_key);
+// Convierte el contenido de la solicitud en una cadena JSON
+$request_data_json = json_encode($request_data);
 
-  // Procesamos la respuesta del modelo para obtener el texto generado
-  $generated_text = $response_data['choices'][0]['text'];
+// Inicializa la sesión cURL
+$ch = curl_init("https://api.openai.com/v1/completions");
 
-  // Mostramos la respuesta del modelo al usuario - Modelo Basico
-  //echo "El modelo GPT-3 ha devuelto el siguiente texto: " . $generated_text;
+// Establece las opciones de la solicitud cURL
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+curl_setopt($ch, CURLOPT_POSTFIELDS, $request_data_json);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+  "Content-Type: application/json",
+  "Content-Length: " . strlen($request_data_json),
+  "Authorization: Bearer " . $api_key
+));
 
-  // Mostramos la respuesta del modelo al usuario - Modelo tipo cards
-  /*  echo '<div class="card">';
-  echo '<div class="card-body">';
-  echo "El modelo GPT-3 ha devuelto el siguiente texto: " . $generated_text;
-  echo '</div>';
-  echo '</div>';
-*/
-  // Mostramos la respuesta del modelo al usuario - Modelo tipo panel
-  echo '<div class="alert alert-primary" role="alert">';
-  echo "El modelo GPT-3 ha devuelto el siguiente texto: " . $generated_text;
-  echo '</div>';
-} else {
-  // Si el usuario no ha enviado un prompt válido, mostramos un mensaje de error
-  echo "Por favor, introduce un prompt válido.";
-}
+// Ejecuta la solicitud cURL
+$response = curl_exec($ch);
+
+// Cierra la sesión cURL
+curl_close($ch);
+
+// Procesa la respuesta de la API
+$response_data = json_decode($response, true);
+
+// Utiliza los datos de la respuesta para mostrar algo en la página web
+echo "El modelo GPT-3 ha devuelto el siguiente texto: " . $response_data['choices'][0]['text'];
