@@ -12,31 +12,35 @@
 <p>Para darle un aspecto más atractivo a la interfaz, se podrían usar colores y estilos adecuados, así como también se podrían añadir imágenes y otros elementos de diseño para hacerla más atractiva para los usuarios.</p>
 
 <h2>Cómo utilizar esta aplicación</h2>
-Obtenga una clave de API y una cuenta de OpenAI en el sitio web de OpenAI (https://beta.openai.com/).
-Descargue o clone este repositorio a su computadora.
-Asegúrese de tener PHP instalado y configurado en su computadora.
-Abra el archivo index.php y reemplace el ID del modelo y la clave de API por los propios.
-Modifique el prompt y el número máximo de tokens según sus necesidades.
-Abra el archivo index.php en un navegador web para ver la aplicación en funcionamiento.
-Escriba el prompt y especifique el número máximo de tokens deseados.
-Haga clic en el botón de enviar para ver la respuesta del modelo.
+<ol>
+<li>Obtenga una clave de API y una cuenta de OpenAI en el sitio web de OpenAI (https://beta.openai.com/).</li>
+<li>Descargue o clone este repositorio a su computadora.</li>
+<li>Asegúrese de tener PHP instalado y configurado en su computadora.</li>
+<li>Abra el archivo controller.php y reemplace el ID del modelo y la clave de API por los propios.</li>
+<li>Modifique el número máximo de tokens en el archivo model.php según sus necesidades.</li>
+<li>Abra el archivo index.php en un navegador web para ver la aplicación en funcionamiento.</li>
+<li>Escriba el prompt adecuado.</li>
+<li>Haga clic en el botón de <strong>Obtener respuesta</strong> para ver la respuesta del modelo.</li>
+</ol>
 
 <h2>Consideraciones importantes</h2>
-Es posible que deba modificar el código para que funcione en un entorno específico.
-Asegúrese de manejar errores y excepciones de manera adecuada en caso de que ocurran durante la ejecución del código.
-Tenga en cuenta que la API de OpenAI y el modelo GPT-3 pueden cambiar con el tiempo, por lo que es posible que deba actualizar el código para asegurarse de que sigue funcionando correctamente.
-Este código es solo un ejemplo y debe adaptarse a sus necesidades y requisitos específicos.
-Asegúrese de seguir las políticas y términos de uso de OpenAI al utilizar su API y modelos.
-Es recomendable leer la documentación de la API de OpenAI y el modelo GPT-3 para obtener más información sobre cómo funcionan y cómo se pueden utilizar de manera efectiva.
+<ul>
+<li>Es posible que deba modificar el código para que funcione en un entorno específico.</li>
+<li>Asegúrese de manejar errores y excepciones de manera adecuada en caso de que ocurran durante la ejecución del código.</li>
+<li>Tenga en cuenta que la API de OpenAI y el modelo GPT-3 pueden cambiar con el tiempo, por lo que es posible que deba actualizar el código para asegurarse de que sigue funcionando correctamente.</li>
+<li>Este código es solo un ejemplo y debe adaptarse a sus necesidades y requisitos específicos.</li>
+<li>Asegúrese de seguir las políticas y términos de uso de OpenAI al utilizar su API y modelos.</li>
+<li>Es recomendable leer la documentación de la API de OpenAI y el modelo GPT-3 para obtener más información sobre cómo funcionan y cómo se pueden utilizar de manera efectiva.</li>
+</ul>
 
 <h2>Licencia</h2>
 <p>Este código se encuentra bajo la licencia MIT. Puede utilizar, modificar y distribuir este código de acuerdo a los términos de la licencia. No obstante, tenga en cuenta que la API de OpenAI y el modelo GPT-3 tienen sus propias políticas y términos de uso que debe seguir al utilizar estos recursos.</p>
 
 <h2>Autor</h2>
-<p>Este código fue creado por Alexander Oviedo Fadul como ejemplo de cómo utilizar la API de OpenAI y el modelo GPT-3. Si tiene alguna pregunta o sugerencia, no dude en contactar al autor a través de GitHub o enviando un correo electrónico a alexander.oviedo.fadul@gmail.com.</p>
+<p>Este código fue creado por <strong>Alexander Oviedo Fadul</strong> como ejemplo de cómo utilizar la API de OpenAI y el modelo GPT-3. Si tiene alguna pregunta o sugerencia, no dude en contactar al autor a través de GitHub o enviando un correo electrónico a alexander.oviedo.fadul@gmail.com.</p>
 
 <h2>Contribuciones</h2>
 <p>Este código es un ejemplo y está disponible para que cualquiera pueda utilizarlo y modificarlo. Si desea contribuir con mejoras o correcciones, puede enviar una solicitud de pull a través de GitHub. Todas las contribuciones serán revisadas y, si se aprueban, serán incorporadas al repositorio.</p>
 
 <h2>Agradecimientos</h2>
-<p>Agradezco a OpenAI por su API y modelos, que nos permiten experimentar con el procesamiento del lenguaje natural y crear aplicaciones interesantes y útiles. También agradezco a mi familia y amigos. Sin su ayuda, esta aplicación no habría sido posible.</p>
+<p>Agradezco a OpenAI por su API y modelos, que nos permiten experimentar con el procesamiento del lenguaje natural y crear aplicaciones interesantes y útiles. También <strong>agradezco a Dios, a mi familia y amigos<strong>. Sin su ayuda, esta aplicación no habría sido posible.</p>
