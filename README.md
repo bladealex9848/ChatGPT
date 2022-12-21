@@ -71,6 +71,6 @@
 <li><a href="https://biz.payulatam.com/L0eeee08C27577B" target="_blank">Payu</a></li>
 </ul>
 
-<p><a href="https://www.paypal.com/donate/?hosted_button_id=AVZSDFALB7QJQ" target="_blank"><img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg" style="height:10%; width:10%" /></a> <a href="https://biz.payulatam.com/B0eeee08C27577B" target="_blank"><img src="https://ecommerce.payulatam.com/img-secure-2015/boton_pagar_mediano.png" /></a></p>
+<p><a href="https://www.paypal.com/donate/?hosted_button_id=AVZSDFALB7QJQ" target="_blank"><img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg" style="height:10%; width:10%" /></a> <a href="https://biz.payulatam.com/B0eeee08C27577B"><img src="https://ecommerce.payulatam.com/img-secure-2015/boton_pagar_grande.png"></a></p>
 
 <p><strong>Recuerda que tu imaginación es tu única frontera.</strong></p>
