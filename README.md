@@ -45,4 +45,30 @@
 <h2>Agradecimientos</h2>
 <p>Agradezco a OpenAI por su API y modelos, que nos permiten experimentar con el procesamiento del lenguaje natural y crear aplicaciones interesantes y útiles. También <strong>agradezco a Dios, a mi familia y amigos</strong>. Sin su ayuda, esta aplicación no habría sido posible.</p>
 
+<h2>Donaciones</h2>
+
+<p>Somos un equipo de desarrolladores y entusiastas de la inteligencia artificial que hemos creado un chatbot inteligente para ayudar a las personas a obtener respuestas y realizar tareas sencillas de manera más rápida y eficiente. Nuestro chatbot está alimentado por el poderoso modelo de lenguaje GPT-3 de OpenAI, lo que le permite entender y responder a preguntas y comandos de manera precisa y natural.</p>
+
+<p>Hemos visto la gran utilidad y eficiencia que nuestro chatbot ha brindado a nuestros usuarios, y queremos seguir ofreciéndoles este valioso servicio. Sin embargo, para seguir manteniendo y mejorando nuestro sitio web, necesitamos sostenerlo económicamente. Es por eso que te pedimos tu apoyo como donante.</p>
+
+<p>Con tu contribución, podremos seguir brindando nuestra interfaz de usuario y chatbot inteligente a todos aquellos que lo necesiten. Además, tu apoyo nos permitirá seguir mejorando y ampliando nuestros servicios, para que nuestro chatbot pueda brindar aún más valor a nuestros usuarios.</p>
+
+<p>Tu donación, por más pequeña que sea, será muy valiosa para nosotros y nos ayudará a seguir brindando este servicio que tantas personas están encontrando útil. Agradecemos de antemano tu apoyo y esperamos que nuestro chatbot pueda ayudarte a ti también en tu día a día.</p>
+
+<p>Gracias por tu tiempo y consideración.</p>
+
+<p>Métodos:</p>
+
+<ul>
+<li><a href="https://www.paypal.com/donate/?hosted_button_id=AVZSDFALB7QJQ" target="_blank">Pypal</a></li>
+<li><a href="https://biz.payulatam.com/L0eeee08C27577B" target="_blank">Payu</a></li>
+</ul>
+
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="AVZSDFALB7QJQ" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
+          </form>
+<a href="https://biz.payulatam.com/B0eeee08C27577B"><img src="https://ecommerce.payulatam.com/img-secure-2015/boton_pagar_mediano.png"></a>
+
 <p><strong>Recuerda que tu imaginación es tu única frontera.</strong></p>
