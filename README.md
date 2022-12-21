@@ -45,8 +45,15 @@
 <h2>Agradecimientos</h2>
 <p>Agradezco a OpenAI por su API y modelos, que nos permiten experimentar con el procesamiento del lenguaje natural y crear aplicaciones interesantes y útiles. También <strong>agradezco a Dios, a mi familia y amigos</strong>. Sin su ayuda, esta aplicación no habría sido posible.</p>
 
-<h2>Donaciones</h2>
+<h2>Cómo usar e ingresar a la Demo</h2>
+<ol>
+<li>Ingresa a (https://chat.isabellaea.com/).</li>
+<li>Selecciona el modelo de lenguaje.</li>
+<li>Escriba el prompt adecuado.</li>
+<li>Haga clic en el botón de <strong>Obtener respuesta</strong> para ver la respuesta del modelo.</li>
+</ol>
 
+<h2>Donaciones</h2>
 <p>Somos un equipo de desarrolladores y entusiastas de la inteligencia artificial que hemos creado un chatbot inteligente para ayudar a las personas a obtener respuestas y realizar tareas sencillas de manera más rápida y eficiente. Nuestro chatbot está alimentado por el poderoso modelo de lenguaje GPT-3 de OpenAI, lo que le permite entender y responder a preguntas y comandos de manera precisa y natural.</p>
 
 <p>Hemos visto la gran utilidad y eficiencia que nuestro chatbot ha brindado a nuestros usuarios, y queremos seguir ofreciéndoles este valioso servicio. Sin embargo, para seguir manteniendo y mejorando nuestro sitio web, necesitamos sostenerlo económicamente. Es por eso que te pedimos tu apoyo como donante.</p>
