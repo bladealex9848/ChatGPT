@@ -71,11 +71,6 @@
 <li><a href="https://biz.payulatam.com/L0eeee08C27577B" target="_blank">Payu</a></li>
 </ul>
 
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-            <input type="hidden" name="hosted_button_id" value="AVZSDFALB7QJQ" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
-          </form>
-<a href="https://biz.payulatam.com/B0eeee08C27577B"><img src="https://ecommerce.payulatam.com/img-secure-2015/boton_pagar_mediano.png"></a>
+<p><a href="https://www.paypal.com/donate/?hosted_button_id=AVZSDFALB7QJQ" target="_blank"><img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg" style="height:10%; width:10%" /></a> <a href="https://biz.payulatam.com/B0eeee08C27577B" target="_blank"><img src="https://ecommerce.payulatam.com/img-secure-2015/boton_pagar_mediano.png" /></a></p>
 
 <p><strong>Recuerda que tu imaginación es tu única frontera.</strong></p>
